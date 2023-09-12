@@ -42,7 +42,7 @@ const reviewApi = {
         try {
             const response = await privateClient.get(reviewEndpoints.list);
 
-        return { response };
+        return { response }
         } catch (err) { return { err }; }
     }
 };
